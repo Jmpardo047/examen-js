@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { ImcComponent } from './ImcComponent'
 import { TablesComponent } from './TablesComponent'
 import { GalleryComponent } from './GalleryComponent'
+import { ApiComponent } from './ApiComponent'
 
 export const App = () => {
     const [ej1, setEj1] = useState(false)
@@ -51,7 +52,7 @@ export const App = () => {
         {ej1 && <ImcComponent/>}
         {ej2 && <GalleryComponent/>}
         {ej3 && <TablesComponent/>}
-        {ej4 && <p>ejercicio4</p>}
+        {ej4 && <ApiComponent/>}
     </>
   )
 }

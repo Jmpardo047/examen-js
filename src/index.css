@@ -105,3 +105,33 @@ th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
 .modal-image{
   width: 100%;
 }
+
+.data-list{
+  position: absolute;
+  top: 13vh;
+  left: 20vw;
+  width: 50em;
+  height: 30em;
+  background-color: rgb(184, 182, 182);
+  padding: 1em;
+  color: black;
+}
+.items-list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+.data-item{
+  border: solid 1px black;
+  width: fit-content;
+  padding: 0.5em;
+  cursor: pointer;
+}
+.add-container{
+  width: 15em;
+  left: 33em;
+  z-index: 100;
+  position: absolute;
+  color: black;
+}
